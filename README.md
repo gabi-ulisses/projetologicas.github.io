@@ -1,1 +1,0 @@
-# projetologicas.github.io
