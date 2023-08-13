@@ -320,3 +320,7 @@ h1{
   .pulse {
     animation: pulse-animation 2s ease-in-out infinite; /* Duração da animação */
   }
+
+  #btn2023App{
+    background-color: #464646;
+  }
