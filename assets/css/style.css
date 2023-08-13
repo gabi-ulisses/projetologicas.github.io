@@ -1,0 +1,322 @@
+body{
+    background-color: #ffffff;
+}
+
+.row{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+nav{
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+#sobre{
+    background-color: #f8f8f8;
+    padding-bottom: 100px;
+    color: #1b6d81;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#imgSobre{
+    width: 300px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.citacao{
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 40px;
+    font-style: italic;
+    transition: transform 0.3s;
+}
+
+.citacao:hover{
+    transform: scale(1.1);
+}
+
+#citacoes{
+    margin-bottom: 5px;
+}
+
+#duvidas{
+    background-color: #f5f5f5;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: #166621;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#inicio{
+    padding-top: 100px;
+    margin-bottom: 60px;
+    color: #1b6d81;
+}
+h2{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+small{
+    margin-top: 10px;
+    color: #777272;
+    font-size: 15px;
+}
+
+.saltitar {
+    animation: saltitar 1s infinite;
+  }
+  
+  @keyframes saltitar {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  #labtec{
+    width: 20%;
+  }
+
+  #scratch{
+    width: 20%;
+  }
+
+#contato{
+    margin: 20px auto;
+}
+
+#icone_gmail{
+    margin-top: 20px;
+    width: 20%;
+}
+  
+
+.imgScratch{
+    max-width: 60%;
+    height: auto;
+    border-radius: 30px;
+    pad: 15px;
+}
+  
+#objetos{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: #444849;
+}
+ #bncc{
+    text-decoration: none;
+    color: #0072a7;
+ }
+
+ .grifando{
+    font-weight: 600;
+    color: #0072a7;
+ }
+
+ .grifando2{
+    font-weight: 600;
+    color: #000000;
+ }
+ #acesse{
+    color: #339ebe;
+ }
+.col-sm-12{
+    margin-bottom: 50px;
+}
+
+/* Botões objetos */
+
+.btnsMaiores{
+    border: none;
+    height: 60px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+#btn2023{
+    background-color: #777272;
+
+}
+
+#btn2022{
+    background-color: #a09c9c;
+}
+
+  .btn:focus{
+    box-shadow: 0 2px 4px #d3d3d380; 
+  }
+
+
+.outraPagina{
+    background-color: #a09c9c;
+    border: none;
+}
+
+.outraPagina:hover{
+    background-color: #817f7f;
+}     
+
+    .btnsMedios{
+        margin-bottom: 25px;
+        border: none;
+        font-weight: 500;
+        height: 50px;
+        color: #ffffff;
+    }
+
+    .btnsMenores{
+        margin: 10px auto !important;
+        width: 200px;
+        height: 60px;
+        border: none;
+        color: #ffffff;
+        font-weight: 500;
+    }
+
+        /*Cores dos botões por escala: */
+
+
+        .btnLaranja{
+            background-color: #ff912a;
+        }
+
+        .btnLaranja1{
+            background-color: #ff7b00;
+        }
+
+        .btnLaranja2{
+            background-color: #ffa600;
+        }
+
+        .btnLaranja3{
+            background-color: #ffae00;
+        }
+
+
+        .btnLaranja4{
+            background-color: #ffbb00;
+        }
+
+        .btnAmarelo{
+            background-color: #ffc62a;
+        }
+
+        .btnAmarelo1{
+            background-color: #ffd900;
+        }
+
+        .btnAmarelo2{
+            background-color: rgb(255, 209, 83);
+        }
+
+        .btnAzul{
+            background-color: #2da1ff;
+        }
+
+        .btnAzul1{
+            background-color: #2dabff;
+        }
+
+        .btnAzul2{
+            background-color: #3ba7ff;
+        }
+
+        .btnAzul3{
+            background-color: #40b9ff;
+        }
+
+        .btnAzul4{
+            background-color: #40d2ff;
+        }
+
+        .btnAzul5{
+            background-color: #2093b6;
+        }
+        
+        .btnOceano{
+            background-color: #26a8cf;
+        }
+
+        .btnOceano1{
+            background-color: #1d85a5;
+        }
+
+        .btnOceano2{
+            background-color: #1d7996;
+        }
+        .btnOceano3{
+            background-color: #1a6a83;
+        }
+
+        .btnVerde{
+            background-color: #69d448;
+        }
+
+        .btnVerde1{
+            background-color: #71c251;
+        }
+
+        .btnVerde2{
+            background-color: #60a544;
+        }
+
+        .btnRoxo{
+            background-color: #8100eb;
+        }
+
+        .btnRoxo1{
+            background-color: #6c0eb9;
+        }
+        .btnRoxo2{
+            background-color: #580e94;
+        }
+
+        .btnLilas{
+            background-color: #d000eb;
+        }     
+
+        .btnLilas1{
+            background-color: #ad10c2;
+        }     
+        .btnLilas2{
+            background-color: #9608a8;
+        }     
+
+        .btnLilas3{
+            background-color: #7b0a8a;
+        }     
+h1{
+    margin-bottom: 30px;
+}
+
+#objetosA{
+    width: 40%;
+    margin-bottom: 50px;
+}
+
+@keyframes pulse-animation {
+    0% {
+      transform: scale(1); /* Tamanho inicial */
+    }
+    50% {
+      transform: scale(1.2); /* Tamanho máximo */
+    }
+    100% {
+      transform: scale(1); /* Tamanho inicial */
+    }
+  }
+  
+  .pulse {
+    animation: pulse-animation 2s ease-in-out infinite; /* Duração da animação */
+  }
