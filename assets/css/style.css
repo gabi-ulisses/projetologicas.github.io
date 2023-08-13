@@ -4,8 +4,6 @@ body{
 
 .row{
     text-align: center;
-    margin-left: 100px;
-    margin-right: 100px;
 }
 
 nav{
@@ -13,27 +11,132 @@ nav{
     text-align: center;
 }
 
-#sobre{
-    background-color: #f8f8f8;
-    padding-bottom: 100px;
+/* Inicio */
+
+#inicio{
+    padding-top: 100px;
+    margin-bottom: 60px;
     color: #1b6d81;
+}
+
+#imgLogicas{
+    width: 100%;
+}
+
+.paragrafos{
+    font-size: 25px;
+}
+
+@media (max-width: 768px) { /* Media query para telas com largura máxima de 768px */
+    .paragrafos{
+      font-size: 20px; /* Tamanho da fonte para telas menores */
+    }
+  }
+
+  @media (max-width: 400px) { /* Media query para telas com largura máxima de 768px */
+    .paragrafos{
+      font-size: 16px; /* Tamanho da fonte para telas menores */
+    }
+  }
+
+  .paragrafos2{
+    font-size: 20px;
+} 
+  @media (max-width: 768px) { /* Media query para telas com largura máxima de 768px */
+    .paragrafos2{
+      font-size: 18px; /* Tamanho da fonte para telas menores */
+    }
+  }
+
+  @media (max-width: 400px) { /* Media query para telas com largura máxima de 768px */
+    .paragrafos2{
+      font-size: 16px; /* Tamanho da fonte para telas menores */
+    }
+  }
+
+
+/* Duvidas */
+
+#duvidas{
+    background-color: #f5f5f5;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: #205e28;
     font-weight: 500;
     font-size: 20px;
 }
 
-#imgSobre{
-    width: 300px;
-    margin-top: 80px;
-    margin-bottom: 20px;
+.titulos{
+    font-size: 30px;
 }
+
+@media (max-width: 768px) { /* Media query para telas com largura máxima de 768px */
+    .titulos{
+      font-size: 27px; /* Tamanho da fonte para telas menores */
+    }
+  }
+
+  @media (max-width: 400px) { /* Media query para telas com largura máxima de 768px */
+    .titulos{
+      font-size: 25px; /* Tamanho da fonte para telas menores */
+    }
+  }
+
+  @media (max-width: 300px) { /* Media query para telas com largura máxima de 768px */
+    .titulos{
+      font-size: 20px; /* Tamanho da fonte para telas menores */
+    }
+  }
 
 .citacao{
     padding-top: 10px;
     padding-left: 50px;
     padding-right: 40px;
     font-style: italic;
+    font-size: 20px;
+    color: #45724b;
     transition: transform 0.3s;
 }
+
+@media (max-width: 768px) { 
+    .citacao{
+      font-size: 18px; 
+    }
+  }
+
+  @media (max-width: 400px) {
+    .citacao{
+      font-size: 15px;
+    }
+}
+
+#citacao1, #citacao2{
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    #citacao1{
+      padding-left: 10px !important; 
+      padding-right: 10px !important;
+    }
+    #citacao2{
+        margin-top: 10px;
+        padding-left: 10px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    #citacao1{
+        padding-left: 10px; 
+        padding-right: 10px;
+      }
+      #citacao2{
+        margin-top: 10px;
+        padding-left: 10px;
+        padding-left: 10px;
+      }
+  }
+
 
 .citacao:hover{
     transform: scale(1.1);
@@ -43,30 +146,67 @@ nav{
     margin-bottom: 5px;
 }
 
-#duvidas{
-    background-color: #f5f5f5;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    color: #166621;
-    font-weight: 500;
-    font-size: 20px;
+#paragrafoDuvidas{
+ margin-top: 15px;
 }
 
-#inicio{
-    padding-top: 100px;
-    margin-bottom: 60px;
-    color: #1b6d81;
+
+small{
+    margin-top: 10px;
+    line-height: 5px !important;
+    color: #777272;
+    font-size: 15px;
 }
+
+@media (max-width: 768px) { /* Media query para telas com largura máxima de 768px */
+    small{
+      font-size: 12px; /* Tamanho da fonte para telas menores */
+    }
+  }
+
+  @media (max-width: 400px) { /* Media query para telas com largura máxima de 768px */
+    small{
+      font-size: 11px; /* Tamanho da fonte para telas menores */
+    }
+  }
+
+  #scratch, #inventor{
+    width: 100%
+  }
+
+.imgScratch{
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    margin-bottom: 15px;
+}
+
+/* Sobre */
+
+#sobre{
+    background-color: #f8f8f8;
+    padding-bottom: 100px;
+    color: #1b6d81;
+    font-weight: 500;
+    font-size: 20px;
+    width: 100%;
+}
+
+#imgSobre{
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+  #labtec{
+    width: 20%;
+  }
+
 h2{
     margin-top: 30px;
     margin-bottom: 40px;
 }
 
-small{
-    margin-top: 10px;
-    color: #777272;
-    font-size: 15px;
-}
 
 .saltitar {
     animation: saltitar 1s infinite;
@@ -84,13 +224,6 @@ small{
     }
   }
 
-  #labtec{
-    width: 20%;
-  }
-
-  #scratch{
-    width: 20%;
-  }
 
 #contato{
     margin: 20px auto;
@@ -102,12 +235,7 @@ small{
 }
   
 
-.imgScratch{
-    max-width: 60%;
-    height: auto;
-    border-radius: 30px;
-    pad: 15px;
-}
+/* Objetos */
   
 #objetos{
     padding-top: 60px;
@@ -135,6 +263,10 @@ small{
     margin-bottom: 50px;
 }
 
+
+#btnsScratch{
+  margin: auto !important;
+}
 /* Botões objetos */
 
 .btnsMaiores{
@@ -301,7 +433,7 @@ h1{
 }
 
 #objetosA{
-    width: 40%;
+    width: 100%;
     margin-bottom: 50px;
 }
 
