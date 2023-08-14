@@ -2,6 +2,11 @@ body{
     background-color: #ffffff;
 }
 
+.todosDivs{
+  border-radius: 30px !important;
+
+}
+
 .row{
     text-align: center;
 }
@@ -199,7 +204,7 @@ small{
 }
 
   #labtec{
-    width: 20%;
+    width: 30%;
   }
 
 h2{
