@@ -5,4 +5,4 @@ Ao longo do ano, implementamos a plataforma "**_Lógicas_**" buscando disponibil
 
 ## 🌐 **Como Acessar**
 
-Você pode acessar a aplicação através do seguinte link: [Lógicas](https://projetologicas/projetologicas.github.io).
+Você pode acessar a aplicação através do seguinte link: [Lógicas](https://projetologicas.github.io/)
